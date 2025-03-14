@@ -7,7 +7,7 @@ stages {
 stage('Checkout') { 
 steps { 
 // Specify the branch explicitly 
-                git branch: 'main', url: '' 
+                git branch: 'main', url: 'https://github.com/KLSreya/devops.git' 
             } 
         } 
        stage('Code Analysis') { 
